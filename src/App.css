@@ -1,0 +1,141 @@
+
+
+.head h1{
+  font-size: 2em;
+  font-family: sans-serif;
+  padding: 1.5%;
+}
+
+.head button {
+  position: absolute;
+  font-size: 1em;
+  margin: auto;
+}
+
+.footer{
+  text-align: center; 
+  background-color: gainsboro;
+  padding: 2%;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  
+}
+
+.footer button {
+  display: inline-block;
+  margin: 5px;
+}
+a {
+  text-decoration: none;
+}
+
+.head {
+  text-align: center; 
+}
+.works{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+  
+}
+
+
+.graph {
+  background-color: cadetblue;
+  min-height: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  min-width: 40%;
+  margin: 2%;
+  width: 400px;
+  height: 100px;
+
+}
+
+.mail {
+  background-color: rgb(49, 90, 92);
+  min-height: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  min-width: 40%;
+  margin: 2%;
+  width: 400px;
+  height: 100px;
+
+}
+
+.info {
+  padding: 10%;
+  color: whitesmoke;
+  font-size: 2em;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-shadow: black;
+}
+
+.desc {
+  padding: 10%;
+  color: whitesmoke;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-family: sans-serif;
+  text-shadow: black;
+  text-align: center;
+}
+
+.park {
+  background-color: rgb(17, 78, 82);
+  min-height: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  min-width: 40%;
+  margin: 2%;
+  width: 400px;
+  height: 100px;
+ 
+
+}
+
+.igame { 
+  background-color: rgb(4, 133, 139);
+  min-height: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  min-width: 40%;
+  margin: 2%;
+  width: 400px;
+  height: 100px;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+
+
+.igame:hover {
+  filter: brightness(70%);
+}
+
+.park:hover {
+  filter: brightness(70%);
+} 
+
+.mail:hover {
+  filter: brightness(70%);
+} 
+.graph:hover {
+  filter: brightness(70%);
+} 
+

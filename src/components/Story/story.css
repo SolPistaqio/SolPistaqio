@@ -1,0 +1,44 @@
+
+.container { 
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: Whitesmoke;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  margin-top: 56px;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  
+  }
+  
+  .story {
+    max-width: 70%;
+    
+  }
+   .photo {
+    
+    
+  }
+
+  .container img {
+    height: 200px;
+      border-radius: 50%;
+      max-width: 100%;
+    }
+
+  
+  @media (max-width: 700px) {
+
+    .container {
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+      }
+    
+      .container img {
+          height: auto;
+          min-width: 200px;
+          min-height: 200px;
+          border-radius: 50%;
+        }
+  }
