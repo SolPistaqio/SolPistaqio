@@ -1,0 +1,31 @@
+.form{
+    width: 70%;
+    margin: auto;
+    padding: 15%;
+    font-weight: bold;
+    background-color: rgb(49, 90, 92);
+    color: ghostwhite;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+   height: 500px;
+    scroll-snap-type: y mandatory;
+   
+}
+
+.form p {
+    font-size: 3em;
+}
+
+form {
+    scroll-snap-align: end;
+}
+
+.form label{
+font-size: 2em;
+}
+
+img{
+    margin: auto;
+    width: 80%;
+    height: auto;
+}

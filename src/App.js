@@ -7,6 +7,7 @@ import Test from './components/Test/test';
 import NavBar from './components/Nav/nav';
 import RenderWalk from './components/Parks and weather/parks';
 import Game from './components/game/game';
+import ProgramChoise from './components/Program calculator/calc'
 
 /*
 <NavBar />
@@ -98,6 +99,8 @@ class App extends React.Component {
      )
   }
   render() {
+    return <ProgramChoise/>
+    
     if (this.state.appToShow === 'none')
     {return (
    <div >
